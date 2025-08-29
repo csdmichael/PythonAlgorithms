@@ -1,4 +1,4 @@
-from math import ceil, floor
+from math import floor
 from typing import List
 class Solution:
     def mergeSort(self, arr: List[int]) -> List[int]:
