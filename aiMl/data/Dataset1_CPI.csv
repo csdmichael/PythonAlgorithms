@@ -1,0 +1,317 @@
+﻿stateFips,area,areaType,period,periodYear,periodType,periodTypeDescription,cpi,title,type,source,cpiSourceDescription,percentChangeYear,percentChangeMonth,dataRegion,areaName
+0,0,0,0,2008,1,Annual,215.3,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.8,,US,United States
+0,0,0,1,2008,3,Monthly,211.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.3,0.5,US,United States
+0,0,0,1,2008,3,Monthly,212.5,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",4.4,0.4,US,United States
+0,0,0,1,2008,3,Monthly,206.7,"CPI-W all items 1982-84=100, not seasonally adjusted",3,1,"US DOL, Bureau of Labor Statistics",4.6,0.5,US,United States
+0,0,0,1,2008,3,Monthly,208.3,"CPI-W all items 1982-84=100, seasonally adjusted",4,1,"US DOL, Bureau of Labor Statistics",4.8,0.4,US,United States
+0,0,0,2,2008,3,Monthly,207.3,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.4,0.2,US,United States
+0,0,0,2,2008,3,Monthly,212.6,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",4.1,0,US,United States
+0,0,0,2,2008,3,Monthly,207.3,"CPI-W all items 1982-84=100, not seasonally adjusted",3,1,"US DOL, Bureau of Labor Statistics",4.4,0.2,US,United States
+0,0,0,2,2008,3,Monthly,208.3,"CPI-W all items 1982-84=100, seasonally adjusted",4,1,"US DOL, Bureau of Labor Statistics",4.5,0,US,United States
+0,0,0,3,2008,3,Monthly,209.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.3,0.9,US,United States
+0,0,0,3,2008,3,Monthly,213.3,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",4,0.3,US,United States
+0,0,0,3,2008,3,Monthly,209.1,"CPI-W all items 1982-84=100, not seasonally adjusted",3,1,"US DOL, Bureau of Labor Statistics",4.3,0.9,US,United States
+0,0,0,3,2008,3,Monthly,209.1,"CPI-W all items 1982-84=100, seasonally adjusted",4,1,"US DOL, Bureau of Labor Statistics",4.3,0.4,US,United States
+0,0,0,4,2008,3,Monthly,214.8,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.9,0.6,US,United States
+0,0,0,4,2008,3,Monthly,213.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.9,0.2,US,United States
+0,0,0,4,2008,3,Monthly,210.7,"CPI-W all items 1982-84=100, not seasonally adjusted",3,1,"US DOL, Bureau of Labor Statistics",4.2,0.7,US,United States
+0,0,0,4,2008,3,Monthly,209.5,"CPI-W all items 1982-84=100, seasonally adjusted",4,1,"US DOL, Bureau of Labor Statistics",4.2,0.2,US,United States
+0,0,0,5,2008,3,Monthly,216.6,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.2,0.8,US,United States
+0,0,0,5,2008,3,Monthly,215.1,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",4.1,0.6,US,United States
+0,0,0,5,2008,3,Monthly,212.8,"CPI-W all items 1982-84=100, not seasonally adjusted",3,1,"US DOL, Bureau of Labor Statistics",4.5,1,US,United States
+0,0,0,5,2008,3,Monthly,211,"CPI-W all items 1982-84=100, seasonally adjusted",4,1,"US DOL, Bureau of Labor Statistics",4.4,0.7,US,United States
+0,0,0,6,2008,3,Monthly,218.8,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",5,1,US,United States
+0,0,0,6,2008,3,Monthly,217.4,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",4.9,1.1,US,United States
+0,0,0,6,2008,3,Monthly,215.2,"CPI-W all items 1982-84=100, not seasonally adjusted",3,1,"US DOL, Bureau of Labor Statistics",5.6,1.1,US,United States
+0,0,0,6,2008,3,Monthly,213.6,"CPI-W all items 1982-84=100, seasonally adjusted",4,1,"US DOL, Bureau of Labor Statistics",5.4,1.2,US,United States
+0,0,0,7,2008,3,Monthly,219.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",5.6,0.5,US,United States
+0,0,0,7,2008,3,Monthly,219.2,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",5.5,0.8,US,United States
+0,0,0,8,2008,3,Monthly,219.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",5.4,-0.4,US,United States
+0,0,0,8,2008,3,Monthly,218.9,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",5.4,-0.1,US,United States
+0,0,0,9,2008,3,Monthly,218.8,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.9,-0.1,US,United States
+0,0,0,9,2008,3,Monthly,218.8,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",4.9,0,US,United States
+0,0,0,10,2008,3,Monthly,216.6,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.7,-1,US,United States
+0,0,0,10,2008,3,Monthly,216.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.7,-1,US,United States
+0,0,0,11,2008,3,Monthly,212.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.1,-1.9,US,United States
+0,0,0,11,2008,3,Monthly,213.1,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1,-1.7,US,United States
+0,0,0,12,2008,3,Monthly,210.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",0.1,-1,US,United States
+0,0,0,12,2008,3,Monthly,211.6,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-0.1,-0.8,US,United States
+0,0,0,0,2009,1,Annual,214.5,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.4,,US,United States
+0,0,0,1,2009,3,Monthly,211.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",0,0.4,US,United States
+0,0,0,1,2009,3,Monthly,212.2,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-0.2,0.3,US,United States
+0,0,0,2,2009,3,Monthly,212.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4,0.5,US,United States
+0,0,0,2,2009,3,Monthly,213,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",0.1,0.4,US,United States
+8,2,24,12,2007,7,Semi-Annual,202.8,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.9,,CO,Denver/Boulder/Greeley
+0,0,0,3,2009,3,Monthly,212.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.4,0.2,US,United States
+0,0,0,3,2009,3,Monthly,212.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-0.4,-0.1,US,United States
+0,0,0,4,2009,3,Monthly,213.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.7,0.2,US,United States
+0,0,0,4,2009,3,Monthly,212.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-0.6,0,US,United States
+0,0,0,5,2009,3,Monthly,213.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-1.3,0.3,US,United States
+0,0,0,5,2009,3,Monthly,212.9,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-1,0.1,US,United States
+0,0,0,6,2009,3,Monthly,211,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-2,1.1,US,United States
+0,0,0,6,2009,3,Monthly,209.5,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-1.7,0.9,US,United States
+8,2,24,12,2009,7,Semi-Annual,446.2,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",0.9,,CO,Denver/Boulder/Greeley
+0,0,0,7,2009,3,Monthly,215.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-2.1,-0.2,US,United States
+0,0,0,7,2009,3,Monthly,214.5,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-1.9,0,US,United States
+0,0,0,8,2009,3,Monthly,215.8,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-1.5,0.2,US,United States
+0,0,0,8,2009,3,Monthly,215.4,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-1.4,0.4,US,United States
+0,0,0,9,2009,3,Monthly,216,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-1.3,0.1,US,United States
+0,0,0,9,2009,3,Monthly,215.8,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-1.3,0.2,US,United States
+0,0,0,10,2009,3,Monthly,216.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.2,0.1,US,United States
+0,0,0,10,2009,3,Monthly,216.4,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",-0.2,0.3,US,United States
+8,2,24,12,2009,7,Semi-Annual,133.7,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",2.7,,CO,Denver/Boulder/Greeley
+0,0,0,11,2009,3,Monthly,216.3,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.8,0.1,US,United States
+0,0,0,11,2009,3,Monthly,217.3,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.9,0.4,US,United States
+0,0,0,12,2009,3,Monthly,215.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.7,-0.2,US,United States
+0,0,0,12,2009,3,Monthly,217.5,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.8,0.1,US,United States
+0,0,0,0,2010,1,Annual,218.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.6,,US,United States
+0,0,0,1,2010,3,Monthly,216.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.6,0.3,US,United States
+0,0,0,1,2010,3,Monthly,217.6,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.7,0.2,US,United States
+0,0,0,2,2010,3,Monthly,216.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.1,0,US,United States
+8,2,24,12,2010,7,Semi-Annual,141.9,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",6.1,,CO,Denver/Boulder/Greeley
+0,0,0,2,2010,3,Monthly,217.6,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.2,0,US,United States
+0,0,0,3,2010,3,Monthly,217.6,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.3,0.4,US,United States
+0,0,0,3,2010,3,Monthly,217.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.4,0.1,US,United States
+0,0,0,4,2010,3,Monthly,218,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.2,0.2,US,United States
+0,0,0,4,2010,3,Monthly,217.6,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.2,-0.1,US,United States
+0,0,0,5,2010,3,Monthly,218.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2,0.1,US,United States
+0,0,0,5,2010,3,Monthly,217.2,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2,-0.2,US,United States
+0,0,0,6,2010,3,Monthly,218,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.1,-0.1,US,United States
+8,2,24,12,2011,7,Semi-Annual,261.8,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",9.8,,CO,Denver/Boulder/Greeley
+0,0,0,6,2010,3,Monthly,216.9,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.1,-0.1,US,United States
+0,0,0,7,2010,3,Monthly,218,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.2,0,US,United States
+0,0,0,7,2010,3,Monthly,217.6,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.3,0.3,US,United States
+0,0,0,8,2010,3,Monthly,218.3,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.1,0.1,US,United States
+0,0,0,8,2010,3,Monthly,218.2,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.2,0.3,US,United States
+0,0,0,9,2010,3,Monthly,218.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.1,0.1,US,United States
+0,0,0,9,2010,3,Monthly,218.4,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.1,0.1,US,United States
+0,0,0,10,2010,3,Monthly,218.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.2,0.1,US,United States
+8,2,24,12,2011,7,Semi-Annual,456.8,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",2.1,,CO,Denver/Boulder/Greeley
+0,0,0,10,2010,3,Monthly,218.9,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.2,0.2,US,United States
+0,0,0,11,2010,3,Monthly,218.8,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.1,0,US,United States
+0,0,0,11,2010,3,Monthly,219.1,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.1,0.1,US,United States
+0,0,0,12,2010,3,Monthly,219.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.5,0.2,US,United States
+0,0,0,12,2010,3,Monthly,220.3,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.4,0.5,US,United States
+0,0,0,0,2011,1,Annual,229.594,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.1,,US,United States
+0,0,0,1,2011,3,Monthly,220.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.6,0.5,US,United States
+0,0,0,1,2011,3,Monthly,221.1,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.7,0.4,US,United States
+8,2,24,12,2011,7,Semi-Annual,144.3,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",1.7,,CO,Denver/Boulder/Greeley
+0,0,0,2,2011,3,Monthly,221.3,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.1,0.5,US,United States
+0,0,0,2,2011,3,Monthly,222.3,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.2,0.5,US,United States
+0,0,0,3,2011,3,Monthly,220,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3,1.1,US,United States
+0,0,0,3,2011,3,Monthly,220.1,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.1,0.6,US,United States
+0,0,0,4,2011,3,Monthly,221.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.6,0.8,US,United States
+0,0,0,4,2011,3,Monthly,221.2,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.6,0.5,US,United States
+0,0,0,5,2011,3,Monthly,226,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.6,0.5,US,United States
+0,0,0,5,2011,3,Monthly,224.8,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.4,0.2,US,United States
+8,2,24,6,2013,7,Semi-Annual,110.19,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",13.6,,CO,Denver/Boulder/Greeley
+0,0,0,6,2011,3,Monthly,225.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.6,-0.1,US,United States
+0,0,0,6,2011,3,Monthly,224.3,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.4,-0.2,US,United States
+0,0,0,7,2011,3,Monthly,225.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.6,0.1,US,United States
+0,0,0,7,2011,3,Monthly,225.4,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.6,0.5,US,United States
+0,0,0,8,2011,3,Monthly,226.5,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.8,0.3,US,United States
+0,0,0,8,2011,3,Monthly,226.3,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.8,0.4,US,United States
+0,0,0,9,2011,3,Monthly,226.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.9,0.2,US,United States
+0,0,0,9,2011,3,Monthly,227,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.9,0.3,US,United States
+8,2,24,6,2013,7,Semi-Annual,262.304,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",-0.4,,CO,Denver/Boulder/Greeley
+0,0,0,10,2011,3,Monthly,226.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.5,-0.2,US,United States
+0,0,0,10,2011,3,Monthly,226.8,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.6,-0.1,US,United States
+0,0,0,11,2011,3,Monthly,226.2,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.4,-0.1,US,United States
+0,0,0,11,2011,3,Monthly,226.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3.4,0,US,United States
+0,0,0,12,2011,3,Monthly,225.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.2,-0.2,US,United States
+0,0,0,12,2011,3,Monthly,226.7,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",3,0,US,United States
+0,0,0,0,2012,1,Annual,229.594,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.1,,US,United States
+0,0,0,1,2012,3,Monthly,226.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.9,0.4,US,United States
+0,0,0,1,2012,3,Monthly,227.5,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.9,0.2,US,United States
+0,0,0,2,2012,3,Monthly,227.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.9,0.4,US,United States
+0,0,0,2,2012,3,Monthly,228.4,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.9,0.4,US,United States
+0,0,0,3,2012,3,Monthly,229.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.7,0.8,US,United States
+0,0,0,3,2012,3,Monthly,229.1,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.6,0.3,US,United States
+0,0,0,4,2012,3,Monthly,229.2,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.3,0,US,United States
+0,0,0,5,2012,3,Monthly,229.815,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.7,-0.1,US,United States
+0,0,0,5,2012,3,Monthly,228.527,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.7,-0.3,US,United States
+8,2,24,6,2013,7,Semi-Annual,487.877,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",3.9,,CO,Denver/Boulder/Greeley
+0,0,0,6,2012,3,Monthly,229.478,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.7,0.1,US,United States
+0,0,0,6,2012,3,Monthly,228.618,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.7,0,US,United States
+0,0,0,7,2012,3,Monthly,229.104,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.4,-0.2,US,United States
+0,0,0,7,2012,3,Monthly,228.723,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.4,0,US,United States
+0,0,0,8,2012,3,Monthly,230.379,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.7,0.6,US,United States
+0,0,0,8,2012,3,Monthly,230.102,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.7,0.6,US,United States
+0,0,0,9,2012,3,Monthly,231.407,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2,0.4,US,United States
+0,0,0,9,2012,3,Monthly,231.414,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2,0.6,US,United States
+8,2,24,6,2013,7,Semi-Annual,146.821,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",0.4,,CO,Denver/Boulder/Greeley
+0,0,0,10,2012,3,Monthly,231.317,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.2,0,US,United States
+0,0,0,10,2012,3,Monthly,231.751,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2.2,0.1,US,United States
+0,0,0,11,2012,3,Monthly,230.221,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.8,-0.5,US,United States
+0,0,0,11,2012,3,Monthly,231.025,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.8,-0.3,US,United States
+0,0,0,12,2012,3,Monthly,229.601,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.7,-0.3,US,United States
+0,0,0,12,2012,3,Monthly,230.979,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.7,0,US,United States
+0,0,0,0,2013,1,Annual,232.957,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.5,,US,United States
+0,0,0,1,2013,3,Monthly,230.28,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.6,0.3,US,United States
+0,0,0,1,2013,3,Monthly,231.198,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.6,0,US,United States
+0,0,0,2,2013,3,Monthly,232.166,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2,0.8,US,United States
+0,0,0,2,2013,3,Monthly,232.77,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2,0.7,US,United States
+0,0,0,3,2013,3,Monthly,232.773,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.5,0.3,US,United States
+0,0,0,3,2013,3,Monthly,232.34,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.5,-0.2,US,United States
+0,0,0,4,2013,3,Monthly,232.531,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.1,-0.1,US,United States
+0,0,0,4,2013,3,Monthly,231.485,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.1,-0.4,US,United States
+0,0,0,5,2013,3,Monthly,232.945,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.4,0.2,US,United States
+0,0,0,5,2013,3,Monthly,231.831,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.4,0.1,US,United States
+0,0,0,6,2013,3,Monthly,233.504,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.8,0.2,US,United States
+0,0,0,6,2013,3,Monthly,232.944,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.8,0.5,US,United States
+0,0,0,7,2013,3,Monthly,233.596,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2,0,US,United States
+0,0,0,7,2013,3,Monthly,233.318,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",2,0.2,US,United States
+0,0,0,8,2013,3,Monthly,233.877,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.5,0.1,US,United States
+0,0,0,8,2013,3,Monthly,233.526,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.5,0.1,US,United States
+0,0,0,9,2013,3,Monthly,234.149,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.2,0.1,US,United States
+0,0,0,9,2013,3,Monthly,233.947,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.2,0.2,US,United States
+0,0,0,11,2013,3,Monthly,233.069,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.2,-0.2,US,United States
+0,0,0,11,2013,3,Monthly,233.887,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.2,0,US,United States
+0,0,0,12,2013,3,Monthly,233.049,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.5,0,US,United States
+0,0,0,12,2013,3,Monthly,234.582,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.5,0.3,US,United States
+0,0,0,1,2014,3,Monthly,233.916,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.6,0.4,US,United States
+0,0,0,1,2014,3,Monthly,234.933,"CPI-U all items 1982-84=100, seasonally adjusted",2,1,"US DOL, Bureau of Labor Statistics",1.6,0.1,US,United States
+8,2,24,0,1995,1,Annual,147.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.3,0,CO,Denver/Boulder/Greeley
+8,2,24,6,1995,7,Semi-Annual,146.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.9,0,CO,Denver/Boulder/Greeley
+8,2,24,12,1995,7,Semi-Annual,149,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.8,0,CO,Denver/Boulder/Greeley
+8,2,24,0,1996,1,Annual,153.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.5,0,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,209.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.9,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,201.3,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",4.8,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,193.3,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",2.4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,202.6,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",10.5,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,102.8,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",3.4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,233.3,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",6.3,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,432.9,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",7.5,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,128.2,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",3.3,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,113.1,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",2.4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2008,1,Annual,312.3,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",3,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,208.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,198.7,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",4.1,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,192.7,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",1.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,204.1,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",7.5,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,103.3,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",4.3,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,234.2,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",8.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,423.8,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",5.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,126.2,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",3.1,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,111.6,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",1.3,,CO,Denver/Boulder/Greeley
+8,2,24,6,2008,7,Semi-Annual,312.7,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",2.5,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,211.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",4.1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,204,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",5.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,193.8,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",3.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,201,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",13.8,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,102.2,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",2.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,232.3,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,442,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",9.1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,130.2,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",3.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,114.5,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",3.5,,CO,Denver/Boulder/Greeley
+8,2,24,12,2008,7,Semi-Annual,312,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",3.5,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,208.5,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.6,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,201.3,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",0,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,193.7,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",-0.4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,184.4,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",-9,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,103,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",0.2,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,217.4,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",-6.8,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,442.9,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",2.3,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,133,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",3.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,116.7,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",3.2,,CO,Denver/Boulder/Greeley
+8,2,24,0,2009,1,Annual,321.5,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",2.9,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,207.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,203.5,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",2.4,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,192.7,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",0,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,181,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",-11.3,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,101.4,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",-1.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,210.4,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",-10.2,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,439.6,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",3.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,132.3,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",4.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,115.6,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",3.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2009,7,Semi-Annual,322.4,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",3.1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,209.7,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",-0.7,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,199.1,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",-2.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,192.4,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",-0.7,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,187.9,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",-6.5,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,104.5,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",2.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,224.5,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",-3.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,117.7,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",2.8,,CO,Denver/Boulder/Greeley
+8,2,24,12,2009,7,Semi-Annual,320.6,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",2.8,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,212.4,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.9,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,200.9,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",-0.2,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,193.7,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",0.6,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,191.3,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",3.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,98.8,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",-4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,236.4,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",8.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,446.4,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",0.8,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,137.7,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",3.5,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,117.5,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",0.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2010,1,Annual,333.1,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",3.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,211,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,200.4,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",-1.5,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,193,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",0.2,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,193,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",6.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,98.8,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",-2.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,445.5,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",1.3,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,133.6,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",1,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,117,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",1.2,,CO,Denver/Boulder/Greeley
+8,2,24,6,2010,7,Semi-Annual,328.2,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",1.8,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,213.9,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,201.4,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",1.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,194.3,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,189.5,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",0.9,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,98.8,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",-5.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,238.4,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",6.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,447.3,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",0.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,117.9,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",0.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2010,7,Semi-Annual,338,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",5.4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,220.3,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,208.9,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",4,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,198,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",2.2,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,205.9,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",7.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,101.5,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",2.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,260.3,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",10.1,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,452.3,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",1.3,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,143.9,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",4.5,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,118.7,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",1,,CO,Denver/Boulder/Greeley
+8,2,24,0,2011,1,Annual,333.7,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",0.2,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,219.1,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,207.1,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",3.4,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,196.9,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",2,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,200.4,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",3.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,101.5,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",2.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,258.8,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",10.4,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,447.8,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",0.5,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,143.7,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",7.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,117.9,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",0.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2011,7,Semi-Annual,331.6,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,221.5,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",3.6,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,210.7,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",4.6,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,199,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",2.4,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,211.4,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",11.5,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,101.5,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",2.7,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,119.4,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",1.3,,CO,Denver/Boulder/Greeley
+8,2,24,12,2011,7,Semi-Annual,335.8,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",-0.7,,CO,Denver/Boulder/Greeley
+8,2,24,0,2012,1,Annual,224.568,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.9,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,222.96,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",1.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,214.698,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",3.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,199.174,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",1.1,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,196.599,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",-1.9,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,97.037,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",-4.4,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,263.306,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",1.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,469.672,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",4.9,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,146.26,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",1.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,120.414,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",2.2,,CO,Denver/Boulder/Greeley
+8,2,24,6,2012,7,Semi-Annual,341.039,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",2.8,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,226.177,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,215.874,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",2.5,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,202.318,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",1.6,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,194.122,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",-8.2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,108.096,CPI-U:  Apparel,54,1,"US DOL, Bureau of Labor Statistics",6.5,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,263.448,CPI-U:  Transportation,55,1,"US DOL, Bureau of Labor Statistics",0.6,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,480.813,CPI-U:  Medical Care,56,1,"US DOL, Bureau of Labor Statistics",5.3,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,145.8,CPI-U:  Recreation,57,1,"US DOL, Bureau of Labor Statistics",1.1,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,121.875,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",2,,CO,Denver/Boulder/Greeley
+8,2,24,12,2012,7,Semi-Annual,347.953,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",3.6,,CO,Denver/Boulder/Greeley
+8,2,24,6,2013,7,Semi-Annual,229.142,"CPI-U all items 1982-84=100, not seasonally adjusted",1,1,"US DOL, Bureau of Labor Statistics",2.8,,CO,Denver/Boulder/Greeley
+8,2,24,6,2013,7,Semi-Annual,216.738,CPI-U:  Food and beverages,51,1,"US DOL, Bureau of Labor Statistics",1,,CO,Denver/Boulder/Greeley
+8,2,24,6,2013,7,Semi-Annual,207.253,CPI-U:  Housing,52,1,"US DOL, Bureau of Labor Statistics",4.1,,CO,Denver/Boulder/Greeley
+8,2,24,6,2013,7,Semi-Annual,206.493,CPI-U:  Fuels and utilities,53,1,"US DOL, Bureau of Labor Statistics",5,,CO,Denver/Boulder/Greeley
+8,2,24,6,2013,7,Semi-Annual,122.498,CPI-U:  Education and communication,58,1,"US DOL, Bureau of Labor Statistics",1.7,,CO,Denver/Boulder/Greeley
+8,2,24,6,2013,7,Semi-Annual,351.975,CPI-U:  Other goods and services,59,1,"US DOL, Bureau of Labor Statistics",3.2,,CO,Denver/Boulder/Greeley
