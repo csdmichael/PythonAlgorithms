@@ -1,0 +1,16 @@
+pip install autogenstudio
+
+#Clone autogen studio
+pip install -e
+
+#Navigate to the samples/apps/autogen-studio/frontend directory, 
+#install dependencies, and build the UI:
+
+npm install -g gatsby-cli
+npm install --global yarn
+cd frontend
+yarn install
+yarn build
+
+#Run autogen Studio
+autogenstudio ui --port 8081
