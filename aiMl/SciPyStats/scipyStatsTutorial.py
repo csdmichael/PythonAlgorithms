@@ -8,6 +8,22 @@ U = uniform(loc=10, scale=5)  # Uniform distribution between 0 and 1
 x = U.pdf([8, 12, 20]) #probability density function
 print(x)
 
+m = U.mean() #mean
+v = U.var()  #variance
+s= U.std()  #standard deviation
+
+print(m, v, s)
+
+
+
+#Sampling
+samples = U.rvs(size=3) #random variates
+print("Samples", samples)
+
+samples = U.rvs(size=20000) #random variates
+plt.hist(samples, bins=10, density=True, alpha=0.5, color='g')
+plt.show()
+
 upoints = np.linspace(7, 18, 200) # 200 points between 7 and 18
 ppoints = U.pdf(upoints)
 plt.plot(upoints, ppoints)
