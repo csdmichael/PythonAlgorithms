@@ -8,6 +8,7 @@ U = uniform(loc=10, scale=5)  # Uniform distribution between 0 and 1
 x = U.pdf([8, 12, 20]) #probability density function
 print(x)
 
+U = uniform(loc=2, scale=6)  # Uniform distribution between 2 and 8
 m = U.mean() #mean
 v = U.var()  #variance
 s= U.std()  #standard deviation
