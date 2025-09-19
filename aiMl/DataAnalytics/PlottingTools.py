@@ -10,6 +10,7 @@ print(gapminder.head())
 print(gapminder.continent.unique())
 print(gapminder.info())
 
+# Create the histogram
 ax = gapminder['lifeExp'].hist()
 
 # Set the title
