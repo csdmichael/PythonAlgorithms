@@ -4,17 +4,18 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-def column_range(col):
-    '''
-    This function takes in a pandas series and returns
-    the range of the series (max - min) as a float.
-    '''
-    return col.max() - col.min()
-
 
 gapminder = px.data.gapminder()
 gapminder.info()
 print(gapminder.head())
+
+
+def column_range(col):
+    
+    #This function takes in a pandas series and returns
+    #the range of the series (max - min) as a float.
+    
+    return col.max() - col.min()
 
 ans5 = gapminder.groupby('continent')[['gdpPercap']].apply(column_range).sort_values(by='gdpPercap', ascending=False)
 print(ans5)
