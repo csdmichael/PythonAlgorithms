@@ -8,6 +8,9 @@ gapminder = px.data.gapminder()
 gapminder.info()
 print(gapminder.head())
 
+ans1 = gapminder.groupby('continent')[['lifeExp']].mean().sort_values('lifeExp', ascending=False)
+print(ans1)
+
 #Problem 1
 ans1 = gapminder.groupby('year')['lifeExp'].mean()
 print(ans1)
