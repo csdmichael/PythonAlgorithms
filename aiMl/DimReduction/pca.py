@@ -122,11 +122,9 @@ plt.title('Image Reconstructed from first 5 Singular Values')
 
 As the example above demonstrates, using Principal Component Analysis is a way of extracting important information from the data through the SVD.  Now, you are to extract the matrix factorization from the SVD using the housing data `df`.  The earlier `svd_norm` function should work to factor a DataFrame.  Use your function to extract $U, \Sigma, VT$ from the DataFrame.  Assign your results to `U, Sigma, VT` below.
 '''
-U, Sigma, VT = None, None, None
 
 # YOUR CODE HERE
-df = cali_housing.frame
-U, Sigma, VT = svd_norm(df.values)
+U, Sigma, VT = svd_norm(df)
 
 # Answer check
 print(type(U))
@@ -175,11 +173,13 @@ def pca(X, r = 5):
     # Create diagonal matrix Sigma
     Sigma = np.diag(singular_values)
 
-    # Extract first r components
+    # Extract first r columns of U
     Ur = U[:, :r]
+
+    # Extract first r rows and columns of Sigma
     Sigma_r = Sigma[:r, :r]
 
-    # Return DataFrame with principal components
+    # Return DataFrame of projected data
     return pd.DataFrame(Ur @ Sigma_r, columns=[f'pca_{i}' for i in range(1, r + 1)])
 
 # Answer check
