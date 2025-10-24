@@ -96,5 +96,6 @@ error_data = {
     'MAE': [mae_1, mae_2, mae_3]
 }
 error_df = pd.DataFrame(error_data)
+error_df.set_index('Features', inplace=True)
 # Answer check
 print(error_df)
