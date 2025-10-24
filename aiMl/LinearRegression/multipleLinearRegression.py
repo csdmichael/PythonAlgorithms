@@ -42,7 +42,6 @@ Assign your result to the variable `lr_2_feature` below.
 '''
 lr_2_feature = LinearRegression(fit_intercept=False)
 features_2 = diamonds[['carat', 'depth']]
-target = diamonds['price']
 lr_2_feature.fit(features_2, target)
 
 # Answer check
@@ -59,7 +58,6 @@ Assign your result to the variable `lr_3_feature` below.
 '''
 lr_3_feature = LinearRegression(fit_intercept=False)
 features_3 = diamonds[['carat', 'depth', 'table']]
-target = diamonds['price']
 lr_3_feature.fit(features_3, target)
 # Answer check
 print(lr_3_feature)
