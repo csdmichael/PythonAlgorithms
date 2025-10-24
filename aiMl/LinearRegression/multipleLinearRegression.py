@@ -81,23 +81,20 @@ For each of your models, compute the mean squared error and mean absolute errors
 Assign your solution as a DataFrame to `error_df` below.  Note that the `Features` column should be the index column in your DataFrame.
 '''
 
-# Predictions
-pred_1_feature = lr_1_feature.predict(features_1)
-pred_2_feature = lr_2_feature.predict(features_2)
-pred_3_feature = lr_3_feature.predict(features_3)
-# Calculate errors
-mse_1 = mean_squared_error(target, pred_1_feature)
-mae_1 = mean_absolute_error(target, pred_1_feature)
-mse_2 = mean_squared_error(target, pred_2_feature)
-mae_2 = mean_absolute_error(target, pred_2_feature)
-mse_3 = mean_squared_error(target, pred_3_feature)
-mae_3 = mean_absolute_error(target, pred_3_feature)
-# Create DataFrame
+pred_1 = lr_1_feature.predict(features_1)
+pred_2 = lr_2_feature.predict(features_2)
+pred_3 = lr_3_feature.predict(features_3)
+mse_1 = mean_squared_error(target, pred_1)
+mae_1 = mean_absolute_error(target, pred_1)
+mse_2 = mean_squared_error(target, pred_2)
+mae_2 = mean_absolute_error(target, pred_2)
+mse_3 = mean_squared_error(target, pred_3)
+mae_3 = mean_absolute_error(target, pred_3)
 error_data = {
     'Features': ['1 Feature', '2 Features', '3 Features'],
     'MSE': [mse_1, mse_2, mse_3],
     'MAE': [mae_1, mae_2, mae_3]
-}   
-error_df = pd.DataFrame(error_data).set_index('Features')
+}
+error_df = pd.DataFrame(error_data)
 # Answer check
 print(error_df)
