@@ -61,7 +61,7 @@ for i in range(1, 11):
     pipe.fit(X_train, y_train)
 
     #make predictions on all data
-    preds = pipe.predict(X)
+    preds = pipe.predict(X_train)
     
     #assign to model_predictions
     model_predictions[f'degree_{i}'] = preds
