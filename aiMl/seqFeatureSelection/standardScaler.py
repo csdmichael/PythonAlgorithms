@@ -8,7 +8,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
-from sklearn.datasets import fetch_california_housing
+from sklearn.impute import SimpleImputer
+
 
 import numpy as np
 import pandas as pd
@@ -22,14 +23,12 @@ warnings.filterwarnings("ignore")
 For this example, we will use a housing dataset that is part of the scikitlearn datasets module.  The dataset is chosen because we have multiple features on very different scales.  It is loaded and explored below -- your task is to predict `MedHouseVal` using all the other features after scaling and applying regularization with the `Ridge` estimator. 
 '''
 
-cali = fetch_california_housing(as_frame=True)
-cali.frame.head()
-print(cali.DESCR)
-
-cali.frame.info()
-
-X = cali.frame.drop('MedHouseVal', axis = 1)
-y = cali.frame['MedHouseVal']
+cali = pd.read_csv('aiMl/seqFeatureSelection/data/housing.csv')
+print(cali.head())
+print(cali.describe())
+print(cali.info())
+X = cali.drop('median_house_value', axis = 1)
+y = cali['median_house_value']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 42)
 
 ### Problem 1
@@ -42,13 +41,27 @@ Recall that **standard scaling** consists of subtracting the feature mean from e
 
 Assign your results to `X_train_scaled` below.  
 '''
+# Drop missing rows and non-numeric column
+cali = cali.dropna()
+X = cali.drop(['median_house_value', 'ocean_proximity'], axis=1)
+y = cali['median_house_value']
 
-X_train_scaled = (X_train - np.mean(X_train, axis=0)) / np.std(X_train, axis=0)
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.3, random_state=42
+)
+
+train_mean = np.mean(X_train, axis=0)
+train_std = np.std(X_train, axis=0)
+train_std[train_std == 0] = 1  # avoid division by zero
+
+X_train_scaled = (X_train - train_mean) / train_std
 
 # Answer check
 print(X_train_scaled.mean())
 print('-----------------')
 print(X_train_scaled.std())
+
 
 ### Problem 2
 
@@ -60,7 +73,8 @@ To scale the test data, use the mean and standard deviation of the **training** 
 
 Assign the response as an array to `X_test_scaled` below.
 '''
-X_test_scaled = (X_test - np.mean(X_train, axis=0)) / np.std(X_train, axis=0)
+
+X_test_scaled = (X_test - train_mean) / train_std
 
 
 # Answer check
@@ -78,9 +92,18 @@ print(X_test_scaled.std())
 - Use the `.fit_transform` method on `scaler` to transform the training data. Assign the result to `X_train_scaled`.
 - Use the `.transform` method on `scaler` to transform the test data. Assign the result to `X_test_scaled`.
 '''
+
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
+# Select only numeric columns
+X_train_numeric = X_train.select_dtypes(include='number')
+X_test_numeric = X_test.select_dtypes(include='number')
+
+# Answer check
+print(scaler.mean_)
+print('----------')
+print(scaler.scale_)
 
 ### Problem 4
 
@@ -99,12 +122,24 @@ Use the `mean_squared_error` function to compute the MSE between `y_train` and `
 Use the `mean_squared_error` function to compute the MSE between `y_test` and `test_preds`. Assign your result to `test_mse`.
 '''
 
-scaled_pipe = Pipeline([('scaler', StandardScaler()), ('ridge', Ridge())])
+scaled_pipe = Pipeline([
+    ('scaler', StandardScaler()),
+    ('ridge', Ridge(alpha=1.0))
+])
+
 scaled_pipe.fit(X_train, y_train)
 train_preds = scaled_pipe.predict(X_train)
 test_preds = scaled_pipe.predict(X_test)
+
 train_mse = mean_squared_error(y_train, train_preds)
 test_mse = mean_squared_error(y_test, test_preds)
+
+# Select only numeric columns
+X_train_numeric = X_train.select_dtypes(include='number')
+X_test_numeric = X_test.select_dtypes(include='number')
+
+# YOUR CODE HERE
+raise NotImplementedError()
 
 # Answer check
 print(f'Train MSE: {train_mse}')
