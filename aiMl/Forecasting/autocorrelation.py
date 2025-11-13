@@ -26,8 +26,8 @@ Following video 10.3, create an `arima_process` using the arguments:
 Assign this as an `ArmaProcess` object to `process` below.
 '''
 
-ar = np.array([1, -0.9, 0.3])  # Note the sign change for statsmodels
-ma = np.array([1, 2])
+ar = np.array([0.9, -0.3])  # Note the sign change for statsmodels
+ma = np.array([2])
 process = arima_process.ArmaProcess(ar, ma)
 
 # Answer check
