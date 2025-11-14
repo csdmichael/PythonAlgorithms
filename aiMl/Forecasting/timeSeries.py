@@ -89,7 +89,10 @@ print(f'The p-value is {pval: .4f}')
 '''
 **10 Points**
 
-Backing up the results of our hypothesis test, the autocorrelation of the original series seems to not be stationary.  Instead, the differenced data and its ACF and PACF plot look better.  We will begin by using these plots to suggest an `order = (1, 0, 1)` model based on the differenced data.  Accordingly, build an `ARIMA` model with `order = (1, 0, 1)` and fit on the training data and assign to `arma` below.
+Backing up the results of our hypothesis test, the autocorrelation of the original series 
+seems to not be stationary.  Instead, the differenced data and its ACF and PACF plot look better.  
+We will begin by using these plots to suggest an `order = (1, 0, 1)` model based on the differenced data.  
+Accordingly, build an `ARIMA` model with `order = (1, 0, 1)` and fit on the training data and assign to `arma` below.
 
 Determine the mean squared error on the test data and assign as a float to `mse_test` below.  
 '''
