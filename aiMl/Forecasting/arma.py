@@ -36,9 +36,9 @@ As discussed, our ARMA models are only applicable to stationary data.  Use the `
 '''
 result = adfuller(recruits.values)
 if result[1] < 0.05:
-    ans1 = "Yes"
+    ans1 = "yes"
 else:
-    ans1 = "No"
+    ans1 = "no"
 
 # Answer check
 print(f"Is the recruits data stationary? {ans1}")
@@ -182,7 +182,7 @@ preds = pd.DataFrame(preds)
 preds.columns = ['value']
 
 resids = y - preds
-ans7 = 'no'
+ans7 = 'yes'
 
 # Answer check
 plot_acf(resids)
