@@ -169,8 +169,8 @@ plt.show()
 
 # Calculate errors
 pred_error = y_future.values - forecast.values
-mae = np.mean(np.abs(pred_error))
-rmse = np.sqrt(np.mean(pred_error**2))
+mae = np.abs(pred_error).mean()
+rmse = np.sqrt(np.square(pred_error).mean())
 
 ## Answer check
 print(f'Mean Absolute Error: {mae}')
