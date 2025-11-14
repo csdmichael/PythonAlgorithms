@@ -1,0 +1,177 @@
+'''
+This activity focuses on performing a decomposition of a time series following the discussion in videos 10.6 - 10.9. You will build models on time series using statsmodels and their decomposition capabilities.
+'''
+### The Data
+'''
+For this activity, we use a different built-in dataset from statsmodels containing monthly measurements of CO2 at the Mauna Loa Observatory in Hawaii.  From the documentation:
+
+```
+An Applied Physics Corporation (APC) nondispersive infrared gas analyzer was used to obtain atmospheric CO2 concentrations based on continuous data (four measurements per hour) from atop intake lines on several towers. Steady data periods of not less than six hours per day are required; if no such six-hour periods are available on any given day, then no data are used that day. Weekly averages were calculated for most weeks throughout the approximately 44 years of record. The continuous data for the year 2000 is compared with flask data from the same site in the graphics section
+```
+
+Note that the measurements are in monthly steps.  Your goal is to build a model for the CO2 measurements using decomposition with statsmodels tools.  We will use both the `STL` and `STLForecast` objects to accomplish this.  
+
+Below, the data is loaded and cleaned up.  
+'''
+
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import matplotlib.pyplot as plt
+
+
+import statsmodels.api as sm
+from statsmodels.tsa.filters.filtertools import convolution_filter
+import statsmodels.graphics.tsaplots as tsplots
+from statsmodels.tsa.seasonal import seasonal_decompose, STL
+from statsmodels.tsa.forecasting.stl import STLForecast
+from statsmodels.tsa.arima.model import ARIMA
+from sklearn.datasets import fetch_openml
+
+# Load CO2 dataset
+co2 = sm.datasets.co2.load_pandas()
+co2 = co2.data
+# Drop missing values
+co2 = co2.dropna()
+
+# Resample to weekly frequency (supported)
+co2 = co2.resample('ME').mean()
+
+# Confirm frequency is set properly
+co2.index.freq = 'ME' 
+
+print(co2.head())
+
+plt.plot(co2)
+plt.title('CO2 Data', loc = 'left')
+plt.grid()
+plt.show()
+
+### Problem 1
+
+#### Build historical and future datasets
+'''
+**10 Points**
+
+To begin, split the data in 1995.  Observations prior to 1995 will be `y_hist`, and values after will be `y_future`.  Uncomment the code to plot your results.  
+'''
+
+y_hist = co2[:'1994-12']
+y_future = co2['1995-01':]
+
+## Answer check
+plt.plot(y_hist, label='Historical Data')
+plt.plot(y_future, label='Future Data')
+plt.title('CO2 Data Split at 1995', loc = 'left')
+plt.grid()
+plt.legend()
+plt.show()
+
+### Problem 2
+
+#### Extracting the trend
+'''
+**10 Points**
+
+For our exercise, you will use a built-in estimator from statsmodels -- the `STL` model.  To use this model, create an instance of the `STL` estimator and pass `y_hist` and a period value of 12.  
+
+Use the `stl` instance to fit the model, assigning the fit results to `results` below.  This results object will contain the trend as an attribute.  Uncomment the code to see the trend plotted with the original data after fitting.
+'''
+
+stl = STL(y_hist, period=12)
+results = stl.fit()
+
+## Answer check
+plt.plot(y_hist, label='Historical Data')
+plt.plot(results.trend, label='Trend', color='orange')
+plt.title('CO2 Data with Extracted Trend', loc = 'left')
+plt.grid()
+plt.legend()
+plt.show()
+
+### Problem 3
+
+#### Model Historical Data
+'''
+**10 Points**
+
+As demonstrated in the lectures, additive or multiplicative models can be used to combine the seasonality and trend.  Here, the `results` object is an additive model, meaning that reproducing our training data involves adding the `.seasonal` attribute to the `.trend` attribute.  
+
+
+Do this below and assign the added season and trend to the variable `season_and_trend` below.  Uncomment the code to view the plot for the last three years of the historical data.
+'''
+season_and_trend = results.trend + results.seasonal
+
+## Answer check
+plt.plot(y_hist[-36:], label='Historical Data')
+plt.plot(season_and_trend[-36:], label='Season + Trend', color='orange')
+plt.title('CO2 Data with Seasonality and Trend', loc = 'left')
+plt.grid()
+plt.legend()
+plt.show()
+
+### Problem 4
+
+#### Examining the residuals
+'''
+**5 Points**
+
+The `results` object also contains information on the residuals in the `.resid` attribute.  Use the plot below to determine if the residuals are stationary or not.  Assign your answer as a string `yes` or `no` to `stationary` below.
+'''
+stationary = 'yes'
+
+## Answer check
+plt.plot(results.resid)
+plt.title('Residuals from STL Decomposition', loc = 'left')
+plt.grid()
+plt.show()
+
+### Problem 5
+
+#### Examining Error in Forecast
+'''
+**5 Points**
+
+
+Finally, to use statsmodels to forecast, we will use the `STLForecast` object together with the `ARIMA` model.  This is a model you will discuss in the coming videos, but essentially, it helps to extend the trend from the historical data.  Once the estimator is fit on the historical data, a forecast for the future is generated by using the `.forecast` method and passing it the number of time steps forward to the project.  
+
+Below, you are to use the `y_future` and `forecast` to determine the prediction error as
+
+```
+y_future.value - forecast
+```
+
+Use this to compute the Mean Absolute Error and Root Mean Squared Error as `mae` and `rmse` respectively.
+'''
+# If still DataFrame, convert to Series
+if isinstance(y_hist, pd.DataFrame):
+    y_hist = y_hist.iloc[:, 0]
+
+# # Similarly fix y_future
+if isinstance(y_future, pd.DataFrame):
+    y_future = y_future.iloc[:, 0]
+
+
+#instantiate
+stlf = STLForecast(y_hist, ARIMA, model_kwargs={'order':(1, 1, 0), 'trend':"t"})
+#fit model using historical data
+stlf_results = stlf.fit()
+#produce forecast for future data
+forecast = stlf_results.forecast(len(y_future))
+
+plt.plot(y_future, label = 'true future data')
+plt.plot(forecast, label = 'forecast')
+plt.plot(y_hist['1993':], label = 'training data')
+plt.legend()
+plt.title('Forecast with STL and Future Data')
+plt.grid()
+plt.show()
+
+# Calculate errors
+pred_error = y_future.values - forecast.values
+mae = np.mean(np.abs(pred_error))
+rmse = np.sqrt(np.mean(pred_error**2))
+
+## Answer check
+print(f'Mean Absolute Error: {mae}')
+print(f'Root Mean Squared Error: {rmse}')
