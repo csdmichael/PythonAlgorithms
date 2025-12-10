@@ -17,4 +17,27 @@ def findLCA(root: TreeNode, p: TreeNode, q: TreeNode)->TreeNode:
     else:
         return right_lca
 
- 
+
+'''
+      5
+    /   \
+   3     7
+  / \     \
+ 1   4     9
+            \
+            10
+
+ Root = 5
+ p = 3
+ q = 4
+
+ left_lca = 3
+ right_lca = None
+
+ 3
+
+
+Root = 5
+ p = 9
+ q = 10
+'''
