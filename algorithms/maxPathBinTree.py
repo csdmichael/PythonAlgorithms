@@ -4,7 +4,7 @@ class TreeNode:
        self.left = left
        self.right = right
 
-def maxPathSum(root: 'TreeNode') -> int:
+def maxPathSum(root: TreeNode) -> int:
    max_sum = float('-inf')
 
    def dfs(node):
